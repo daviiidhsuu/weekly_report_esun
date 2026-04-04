@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>同業動態週報</title>
+<style>
+  :root {
+    --primary: #1a3a5c;
+    --accent: #2e7d9b;
+    --bg: #f7f9fb;
+    --card: #ffffff;
+    --border: #dde4ea;
+    --text: #2c3e50;
+    --muted: #6b7c8d;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "Microsoft JhengHei", "PingFang TC", "Noto Sans TC", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.75;
+  }
+  .header {
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+    color: #fff;
+    padding: 40px 0 32px;
+    text-align: center;
+  }
+  .header h1 { font-size: 26px; font-weight: 700; letter-spacing: 2px; }
+  .header .sub { font-size: 14px; opacity: 0.8; margin-top: 8px; }
+  .container { max-width: 700px; margin: 0 auto; padding: 32px 20px 60px; }
+  .report-list { list-style: none; }
+  .report-list li {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 12px;
+    transition: box-shadow 0.2s;
+  }
+  .report-list li:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+  .report-list a {
+    display: flex;
+    align-items: center;
+    padding: 18px 22px;
+    text-decoration: none;
+    color: var(--text);
+  }
+  .report-week {
+    background: var(--accent);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 16px;
+    margin-right: 16px;
+    white-space: nowrap;
+  }
+  .report-info { flex: 1; }
+  .report-title { font-size: 15px; font-weight: 600; color: var(--primary); }
+  .report-date { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .report-badge {
+    font-size: 11px;
+    background: #e8f4f8;
+    color: var(--accent);
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 4px;
+  }
+  .arrow { color: var(--muted); font-size: 20px; margin-left: 12px; }
+  .empty {
+    text-align: center;
+    color: var(--muted);
+    padding: 40px;
+    font-size: 14px;
+  }
+  .footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 11px;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+    margin-top: 40px;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>同業動態週報</h1>
+  <div class="sub">存款業務競爭情報追蹤</div>
+</div>
+
+<div class="container">
+  <ul class="report-list">
+    <li>
+      <a href="同業週報_20260323~0329.html">
+        <span class="report-week">W13</span>
+        <div class="report-info">
+          <div class="report-title">同業週報 2026/03/23 – 03/29 <span class="report-badge">含利率表</span></div>
+          <div class="report-date">報告日期：2026.03.30</div>
+        </div>
+        <span class="arrow">›</span>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<div class="footer">
+  存款經營部門 ─ 同業動態週報彙整
+</div>
+
+</body>
+</html>
